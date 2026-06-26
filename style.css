@@ -1,0 +1,318 @@
+/*GLOBAL*/
+body{
+    padding: 0;
+    margin: 0;
+}
+/*ACCUIEL*/
+#mon_accuiel{
+    background-color: rgb(10, 10, 10);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    color: lightpink;
+    padding: 0;
+    margin: 0;
+}
+li{
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline;
+    color: lightpink ;
+    font-weight: 900;
+    align-items: center;
+}
+a.hover{
+    background-color: pink;
+    color: #bbb;
+}
+nav ul li a{
+    text-decoration: none;
+    color: lightpink;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    align-items: center;
+}
+.Bienvenue{
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5em;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-style: italic;
+    color: lightpink;
+}
+blockquote,p{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-style: italic;
+    color: lightpink;
+}
+                     /*STYLE*/
+#mon_style{
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: lightpink;
+}
+.com{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+}
+li{
+   text-decoration: none;
+    display: inline; 
+}
+a{
+   text-decoration: none;
+    font-size: 1.2em;
+    display: inline;
+    color: lightpink ;
+    font-weight: 900; 
+}
+a:hover{
+    background-color: pink;
+    color: #bbb;
+}
+.style ul li a{
+    text-decoration: none;
+    color: lightpink;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-style: italic;
+    color: lightpink;
+}
+/*jupe*/
+#mes_jupe{
+    background-color: rgb(10, 10, 10);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.publication-produit{
+    font-style: oblique;
+    font-size: 1.2em;
+    text-align: center;
+    color: lightpink;
+}
+.produit{
+    flex: 1 1 280px;
+    max-width: 350px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    gap: 20px;
+    text-align: center;
+    transition: 0.3s;
+    display: inline-flex;
+
+}
+.produit:hover{
+    transform: translateY(-5px);
+    background-color: lightpink;
+}
+.produit img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #bbb;
+    transition: 0.3s;
+    display: inline;
+    gap: 10px;
+}
+.produit img:hover{
+    transform: scale(1.05);
+}
+.description-photo{
+    font-size: 0.5em;
+    text-align: center;
+    margin: 5px 0;
+    border: lightpink 5px solid;
+}
+.prix0{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffd700;
+    margin-top: 8px;
+}
+.toggle-btn{
+    background-color: lightpink;
+    color: black;
+    border: none;
+    padding: 4px 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 20%;
+    cursor:pointer;
+    transition: 0.3s;
+}
+/*blousespulls*/
+#mes_blousespulls{
+    background-color: rgb(10, 10, 10);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.prix1{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffd700;
+    margin-top: 8px;
+}
+/*ensemblechic*/
+#mes_ensemblechic{
+    background-color: rgb(10, 10, 10);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.prix2{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffd700;
+    margin-top: 8px;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+#les_avis{
+    background-color: black;
+    padding:  30px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.com{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    border: 3px solid #f5e6d3;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0 auto 30px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    letter-spacing: 2px;
+}                         
+.commentaires-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.commentaires-box{
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4),
+                0 6px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #ffd700            
+}
+.commentaires-box:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5),
+                0 8px 12px rgba(0, 0, 0, 0.3);    
+}
+.P{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #5c4033;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ffd700;
+    font-style: italic;
+}
+.aside{
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+    margin: 5px 0 0 0;
+    font-style: normal;
+}
+.btn-plus{
+    background-color: #ffd700;
+    color: #5c4033;
+    border: none;
+    padding: 14px 35px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.btn-plus:hover{
+    background-color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.6);
+}
+/*contacts*/
+#mes_contacts{
+    font-style: oblique;
+    font-size: 1.3em;
+}
+.con{
+    font-style: italic;
+    font-weight: bold;
+    color: lightpink;
+}
+p{
+    font-display: block;
+    font-size: 1.3em;
+}
+/*fin*/
+.end{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
